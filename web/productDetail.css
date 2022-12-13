@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container img {
+    width: 900px;
+    height: 512px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.details {
+    /*margin: 20px;*/
+    width: 200px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.details button {
+    background-color: goldenrod;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.details button:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.operations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 900px;
+}
+.operations button {
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.operations button:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.delete_btn {
+    background-color: red;
+}
+.update_btn {
+    background-color: green;
+}
